@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="container text-center">
+		<div class="container text-center">	
         <div class="jumbotron">
             <h1>Rock Paper Scissors</h1>
         </div>
@@ -31,7 +31,7 @@
                 </form>
             </div>
             <div class="col-xs-12 post-login">
-                <h2>Hello!
+                <h2>Hello,
                     <span id="player-name-display"></span>! You are player
                     <span id="player-number"></span>.
                 </h2>
@@ -50,11 +50,9 @@
                     <span id="p1-losses"></span>
                 </p>
                 <p class="selections p1-selections">
-						<input type="image" src="https://images.unsplash.com/photo-1444312645910-ffa973656eba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" name="saveForm" class="btn btn-default selection"></button>
-						<input type="image" src="https://images.unsplash.com/photo-1532153354457-5fbe1a3bb0b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" name="saveForm" class="btn btn-default selection"></button>
-                    <!-- <button id="rock" data-player="1" class="btn btn-default selection">Rock</button> -->
-                    <!-- <button id="paper" data-player="1" class="btn btn-default selection">Paper</button>
-                    <button id="scissors" data-player="1" class="btn btn-default selection">Scissors</button> -->
+					<button id="rock" data-player="1" class="btn btn-default selection">Rock</button>
+					<button id="scissors" data-player="1" class="btn btn-default selection">Scissors</button>
+					<button id="paper" data-player="1" class="btn btn-default selection">Paper</button>
                 </p>
                 <p class="pending-selection p1-pending-selection">
                     Pending Selection
@@ -70,7 +68,7 @@
                 <h3 id="feedback"></h3>
             </div>
             <div class="col-xs-4 player">
-                <h3 id="player-2">Waiting for Player 2</h3>
+                <h3 id="player-2">Waiting for another player to join the game...</h3>
                 <p class="stats p2-stats">
                     <strong>Wins:</strong>
                     <span id="p2-wins">0</span>
@@ -79,8 +77,8 @@
                 </p>
                 <p class="selections p2-selections">
                     <button id="rock" data-player="2" class="btn btn-default selection">Rock</button>
-                    <button id="paper" data-player="2" class="btn btn-default selection">Paper</button>
-                    <button id="scissors" data-player="2" class="btn btn-default selection">Scissors</button>
+					<button id="scissors" data-player="2" class="btn btn-default selection">Scissors</button>
+					<button id="paper" data-player="2" class="btn btn-default selection">Paper</button>
                 </p>
                 <p class="pending-selection p2-pending-selection">
                     Pending Selection

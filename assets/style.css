@@ -1,5 +1,10 @@
 body {
   margin: 20px;
+
+ background-color:yellow;
+ color:hotpink;
+ 
+
 }
 
 .pre-login, .post-login, .pending-login, .selections, .pending-selection, .selection-made, .selection-reveal, .stats, .chat-row {
@@ -22,6 +27,7 @@ form[role=login] {
 #chat-log {
   height: 200px;
   overflow: scroll;
+  background-color: pink;
 }
 
 #chat-log li {
@@ -30,13 +36,13 @@ form[role=login] {
 }
 
 .current-user {
-  color: red;
+  color:blue;
 }
 
 .other-user {
-  color: blue;
+  color: hotpink;
 }
 
 .system {
-  color: grey;
+  color: white;
 }
